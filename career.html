@@ -1,0 +1,268 @@
+<?php session_start() ;?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+  
+<link rel="stylesheet" type="text/css" href="css/mystyle.css"/>
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+<script src="css/jquery-1.9.1.js"></script>
+  <script src="css/jquery-ui.js"></script>
+  <link rel="stylesheet" href="css/cal_style.css">
+  <script>
+  $(function() {
+    $( "#datepicker" ).datepicker({
+      changeMonth: true,
+      changeYear: true
+    });
+  });
+  </script>
+<style type="text/css">
+<!--
+.style2 {
+	font-size: 30px;
+	color: #FFFF00;
+}
+.style4 {font-size: 20px}
+-->
+</style>
+
+
+<script>
+$('#demo').dcalendarpicker();
+$('#calendar-demo').dcalendar(); //creates the calendar
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body topmargin="0">
+<link rel="icon" href="images/logo.gif" type="image/gif" sizes="16x16">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<table width="80%" align="center" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="images/LOGO.gif" width="100%" height="187"></td>
+  </tr>
+  <tr>
+    <td><ul class="glossymenu">
+	<li><a href="index.html"><b>Home</b></a></li>
+	<li><a href="aboutus.html"><b>About Us</b></a></li>
+	<li><a href="contactus.html"><b>Contact Us</b></a></li>	
+	<li><a href="enquiry.html"><b>Enquiry</b></a></li>	
+  <li><a href="career.html"><b>Career</b></a></li>	
+  <li><a href="login.html"><b>Login</b></a></li>
+
+</ul></td>
+  </tr>
+</table>
+<table width="80%" border="0" align="center" cellpadding="0" cellspacing="0" style="border-style:solid;border-width:thin">
+  <tr>
+    <td><?php include("header.php");?></td>
+  </tr>
+  <tr>
+    <td height="422"><table width="100%" height="423" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td height="48"><img src="images/career_banner.jpg" width="100%" height="150" /></td>
+      </tr>
+      <tr>
+        <td height="266"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="45%" height="273"><img src="images/Career.jpg" width="100%" height="301" /></td>
+            <td width="55%" align="center"><table width="96%" border="0" cellspacing="0" cellpadding="0"  style="border-style:solid;border-width:thin" bordercolor="#CCCCCC">
+              <tr>
+                <td height="286">
+                
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td height="30"><div align="center"><?php echo $msg;?></div></td>
+                  </tr>
+                  <tr>
+                    <td><form id="form" enctype="multipart/form-data">
+                      <table width="100%" border="0" cellspacing="0" cellpadding="0" height="290">
+                      <tr>
+                        <td width="36%"><div align="right" class="style3">Name</div></td>
+                        <td width="3%">&nbsp;</td>
+                        <td width="61%"><div align="left">
+                          <input name="name" type="text" id="name" value="" size="40" />
+                          <span id="usernameError" style="color:red;"></span>
+                        </div></td>
+                      </tr>
+                      <tr>
+                        <td><div align="right" class="style3">Email-Id</div></td>
+                        <td>&nbsp;</td>
+                        <td><div align="left">
+                          <input name="email" type="text" id="email" size="40" />
+                          <span id="emailError" style="color:red;"></span>
+                        </div></td>
+                      </tr>
+                      <tr>
+                        <td><div align="right" class="style3">Contact No</div></td>
+                        <td>&nbsp;</td>
+                        <td><div align="left">
+                          <input name="cno" type="text" id="cno" size="40" />
+                          <span id="mobileError" style="color:red;"></span>
+                        </div></td>
+                      </tr>
+                      <tr>
+                        <td><div align="right" class="style3">Gender</div></td>
+                        <td>&nbsp;</td>
+                        <td><div align="left">
+                          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                              <td width="37%" class="style3"><input name="gen" type="radio" id="radio" value="M" checked="checked" />
+                                Male</td>
+                              <td width="63%" class="style3"><input type="radio" name="gen" id="radio2" value="F" />
+                                Female</td>
+                            </tr>
+                          </table>
+                        </div></td>
+                      </tr>
+                      <tr>
+                        <td><div align="right" class="style3">Date of Birth</div></td>
+                        <td>&nbsp;</td>
+                        <td><div align="left">
+                          <input name="dob" type="text" id="datepicker" size="30%" />
+                        </div></td>
+                      </tr>
+                      <tr>
+                        <td><div align="right" class="style3">Qualification</div></td>
+                        <td>&nbsp;</td>
+                        <td><div align="left">
+                          <select name="qualification" id="qualification">
+                            <option value="Select Qualification">Select Qualification</option>
+                            <option value="BCA">BCA</option>
+                            <option value="MCA">MCA</option>
+                            <option value="B.Tech">B.Tech</option>
+                            <option value="M.Tech">M.Tech</option>
+                            <option value="PGDCA">PGDCA</option>
+                            <option value="DCA">DCA</option>
+                          </select>
+                          <span id="qualificationError" style="color:red;"></span>
+                        </div></td>
+                      </tr>
+                      <tr>
+                        <td><div align="right" class="style3">Address</div></td>
+                        <td>&nbsp;</td>
+                        <td><div align="left">
+                          <textarea name="address" cols="40" id="address"></textarea>
+                          <span id="addError" style="color:red;"></span>
+                        </div></td>
+                      </tr>
+                      <tr>
+                        <td><div align="right" class="style3">Upload Your CV</div></td>
+                        <td>&nbsp;</td>
+                        <td><div align="left">
+                          <input type="file" name="resume" id="resume" />
+                        </div></td>
+                      </tr>
+                      <tr>
+                        <td><div align="right"></div></td>
+                        <td>&nbsp;</td>
+                        <td><div align="left">
+                          <input type="submit" name="Submit" id="Submit" value="Submit" />
+                        </div></td>
+                      </tr>
+                    </table></form><div id="generalResult"></div></td>
+                  </tr>
+                </table></td>
+              </tr>
+            </table></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td><?php include("footer.php");?></td>
+  </tr>
+</table>
+<table width="82%" align="center" border="0" cellspacing="0" cellpadding="0" style="border-top-style:solid;border-width:thin;border-color:#999">
+  <tr>
+    <td align="center" bgcolor="#CCCCCC">&copy; Copyright 2025 Global Computer Institute</td>
+  </tr>
+</table>
+</body>
+<script>
+  document.getElementById('form').addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    // Clear old error messages
+    document.getElementById('usernameError').innerText = "";
+    document.getElementById('emailError').innerText = "";
+    document.getElementById('mobileError').innerText = "";
+    document.getElementById('qualificationError').innerText = "";
+    document.getElementById('addError').innerText = "";
+    document.getElementById('generalResult').innerText = "";
+    let hasError = false;
+
+    const username = document.getElementById('name').value.trim();
+    const email    = document.getElementById('email').value.trim();
+    const mobile = document.getElementById('cno').value.trim();
+    const qualification = document.getElementById('qualification').value.trim();
+    const address = document.getElementById('address').value.trim();
+    // Name regex : only letters and spaces
+    const nameRegex = /^[A-Za-z\s]+$/;
+
+    if (!nameRegex.test(username)) {
+      document.getElementById('usernameError').innerText =
+        "Only alphabets and spaces are allowed.";
+      hasError = true;
+    }
+    
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(email)) {
+      document.getElementById('emailError').innerText =
+        "Please enter a valid email address.";
+      hasError = true;
+    }
+
+    
+    // Mobile validation (10 digit number only)
+    const mobileRegex = /^\d{10}$/;
+    if (!mobileRegex.test(mobile)) {
+      document.getElementById('mobileError').innerText =
+        "Mobile number must contain exactly 10 digits.";
+      hasError = true;
+    }
+    if (qualification=="Select Qualification") {
+      document.getElementById('qualificationError').innerText =
+        "Please Select a City.";
+      hasError = true;
+    }
+    const validPattern = /^[A-Za-z0-9 /,]+$/;
+
+      if (address.length < 10) {
+        addError.textContent = "Minimum 10 characters required.";
+        return false;
+      }
+
+      if (!validPattern.test(address)) {
+        addError.textContent = "Only alphabets and digits are allowed.";
+        return false;
+      }
+    // Add other validation here (e.g. password length)
+
+    // If any error, stop here
+    if (hasError) {
+      return;
+    }
+
+    // Otherwise send AJAX request
+    const formData = new FormData(this);
+    const xhr = new XMLHttpRequest();
+    xhr.open("POST", "https://example.com/validate-registration", true);
+    xhr.onreadystatechange = function () {
+      if (xhr.readyState === 4) {
+        if (xhr.status === 200) {
+          document.getElementById("generalResult").innerText = xhr.responseText;
+        } else {
+          document.getElementById("generalResult").innerText =
+            "Error while sending data.";
+        }
+      }
+    };
+    xhr.send(formData);
+  });
+</script>
+</html>

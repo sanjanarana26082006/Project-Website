@@ -1,0 +1,722 @@
+
+.MyCalendar .ajax__calendar_container {
+    border:1px solid #646464;
+    background-color: lemonchiffon;
+    color: red;
+}
+.MyCalendar .ajax__calendar_other .ajax__calendar_day,
+.MyCalendar .ajax__calendar_other .ajax__calendar_year {
+    color: black;
+}
+.MyCalendar .ajax__calendar_hover .ajax__calendar_day,
+.MyCalendar .ajax__calendar_hover .ajax__calendar_month,
+.MyCalendar .ajax__calendar_hover .ajax__calendar_year {
+    color: black;
+}
+.MyCalendar .ajax__calendar_active .ajax__calendar_day,
+.MyCalendar .ajax__calendar_active .ajax__calendar_month,
+.MyCalendar .ajax__calendar_active .ajax__calendar_year {
+    color: black;
+    font-weight:bold;
+}
+
+.black {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #333333;
+	text-decoration: none;
+}
+.errMsg {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	color: #CC0000;
+	text-decoration: none;
+}
+
+.button {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	text-decoration: none;
+	background-color: #F0F3F4;
+	border-top-color: #D1DBDE;
+	border-right-color: #D1DBDE;
+	border-bottom-color: #D1DBDE;
+	border-left-color: #D1DBDE;
+}
+
+.txtform {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #333333;
+	text-decoration: none;
+	background-color: #F8F9FA;
+	border: 1px solid #7F9DB9;
+	cursor: text;
+	padding-left: 3px;
+}
+
+.container {
+	background: #fff;
+	padding-bottom: 9px;
+	width: 980px;
+	border: 0px;
+	height: 100%;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+#bottombg {
+	background-image: url(images/bottombg.gif);
+	background-repeat: repeat-x;
+	background-position: center top;
+	text-align: center;
+	background-color: #E8E8E8;
+	float: left;
+	height: 100%;
+	width: 100%;
+}
+.toplinks {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #3b3b3b;
+	text-decoration: none;
+	cursor: pointer;
+}
+a:hover.toplinks {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #c70000;
+	text-decoration: overline;
+	cursor: pointer;
+}
+#logo {
+	background-image: url(images/infozen.gif);
+	background-repeat: no-repeat;
+	float: left;
+	height: 67px;
+	width: 368px;
+}
+.searchicon {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #3b3b3b;
+	text-decoration: none;
+	background-image: url(images/infozen_07.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 24px;
+	padding-left: 8px;
+	padding-right: 3px;
+}
+.searchbg {
+	padding-top: 2px;
+}
+.midbg {
+	float: left;
+	height: 420px;
+	width: 223px;
+	margin-left: 1.45px;
+	background-color: #FFFFFF;
+	padding: 6px;
+	margin-right: 1.45px;
+}
+.formtxt{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-style: normal;
+line-height: normal;
+font-weight: normal;
+font-variant: normal;
+color: #3b3b3b;
+text-decoration: none;
+height: 14px;
+background-color: #FFFFFF;
+border: 1px solid #FFFFFF;
+padding-left: 3px;
+width: 95%;
+margin-top: 1px;
+margin-right: 5px;
+}
+
+.ITcareer {
+	background-image: url(images/IT%20careers.gif);
+	background-repeat: no-repeat;
+	height: 15px;
+	margin-bottom: 10px;
+}
+.online {
+	background-image: url(images/info%20online.gif);
+	background-repeat: no-repeat;
+	height: 15px;
+	margin-bottom: 10px;
+}
+.divbg {
+background-color: #F6F6F6;
+padding: 8px;
+float: left;
+height: 404px;
+}
+
+.divbg_o {
+background-color: #Ffffff;
+padding: 8px;
+height: 404px;
+float: left;
+}
+.whyinfo {
+	background-image: url(images/why%20infozen.gif);
+	background-repeat: no-repeat;
+	height: 15px;
+	margin-bottom: 10px;
+}
+.bottomlinks {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #3b3b3b;
+	text-decoration: none;
+}
+a:hover.bottomlinks {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #c70000;
+	text-decoration: overline;
+}
+.copy {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	color: #c70000;
+	text-decoration: none;
+	margin-top: 10px;
+}
+.black {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #3b3b3b;
+	text-decoration: none;
+	cursor: text;
+}
+a:hover.black {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #B60202;
+	text-decoration: none;
+	cursor: pointer;
+}
+.newsbg {
+	padding: 8px;
+	height: 404px;
+	background-color: #FFFFDD;
+}
+.newsoffer {
+	background-image: url(images/newsoffer.gif);
+	background-repeat: no-repeat;
+	height: 15px;
+	margin-bottom: 10px;
+}
+.newsbg_o {
+	padding: 8px;
+	height: 96%;
+	background-color: #FFFFFF;
+	cursor: pointer;
+}
+.midline {
+	background-image: url(images/midline.gif);
+	background-repeat: repeat-x;
+	height: 1px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.more {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #B50000;
+	text-decoration: none;
+	cursor: pointer;
+	padding-top: 10px;
+}
+a:hover.more {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #000;
+	text-decoration: overline;
+	cursor: pointer;
+	padding-top: 10px;
+}
+.red {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #B60202;
+	text-decoration: none;
+}
+a:hover.red {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #FF9000;
+	text-decoration: overline;
+}
+.txtbg {
+}
+.sublink {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #006699;
+	text-decoration: none;
+}
+a:hover.sublink {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	cursor: pointer;
+	color: #FF9000;
+	text-decoration: overline;
+}
+.form {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #666;
+	text-decoration: none;
+}
+.txtbg2 {
+	padding-top: 5px;
+}
+.icon {
+	float: left;
+}
+.heading {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #B50000;
+	text-decoration: none;
+}
+.subheading {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #333333;
+	text-decoration: none;
+}
+.org {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #B50000;
+	text-decoration: none;
+}
+.durationbg {
+	background-color: #F0F0F0;
+	background-image: url(images/line.gif);
+	background-repeat: repeat-x;
+	background-position: left bottom;
+}
+.dividebox {
+	background-image: url(images/infooz_01.gif);
+	background-repeat: repeat-x;
+	height: 1px;
+	margin-top: 8px;
+}
+#infooz {
+	background-image: url(images/infooz.gif);
+	background-repeat: no-repeat;
+	height: 46px;
+	width: 117px;
+	float: left;
+}
+#a {
+	float: left;
+	margin-top: 24px;
+	margin-left: 8px;
+	cursor: pointer;
+}
+.txtforme2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #333333;
+	text-decoration: none;
+	background-color: #fff;
+	border: 1px solid #A7BCCF;
+	padding-top: 4px;
+	padding-left: 3px;
+	padding-right: 3px;
+	height: 15px;
+	padding-bottom: 2px;
+}
+.txtforme3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #333333;
+	text-decoration: none;
+	background-color: #fff;
+	border: 1px solid #A7BCCF;
+	height: 20px;
+	padding: 2px;
+}
+.txtforme4 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #333333;
+	text-decoration: none;
+	background-color: #fff;
+	border: 1px solid #A7BCCF;
+	height: 22px;
+	padding: 2px;
+}
+.navegation {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #333333;
+	text-decoration: none;
+}
+.bigred {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #B50000;
+	text-decoration: none;
+}
+.infoozbg {
+	background-color: #FFF1DD;
+	padding: 8px;
+	float: left;
+	height: 100%;
+}
+.midinfoozbg {
+	float: left;
+	height: 100%;
+	width: 223px;
+	margin-left: 1.45px;
+	background-color: #FFFFFF;
+	padding: 6px;
+	margin-right: 1.45px;
+}
+.infoozbg_o {
+	background-color: #Ffffff;
+	padding: 8px;
+	height: 100%;
+	float: left;
+}
+.onlinebg  {
+background-color: #F6F6F6;
+padding: 8px;
+float: left;
+height: 404px;
+}
+
+.midonlinebg {
+float: left;
+height: 420px;
+width: 223px;
+margin-left: 1.45px;
+background-color: #FFFFFF;
+padding: 6px;
+margin-right: 1.45px;
+}
+
+.onlinebg_o {
+	background-color: #Ffffff;
+	padding: 8px;
+	height: 395px;
+	float: left;
+}
+.dots {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #A80000;
+	text-decoration: none;
+}
+.blueBig {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #006699;
+	text-decoration: none;
+}
+.heading2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #CC0000;
+	text-decoration: none;
+}
+.blue {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #006699;
+	text-decoration: none;
+}
+.tabelbg {
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: dashed;
+	border-bottom-style: dashed;
+	border-top-color: #A3CBDA;
+	border-bottom-color: #A3CBDA;
+}
+.sgray {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #666666;
+	text-decoration: none;
+}
+.org {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #FF9000;
+	text-decoration: none;
+}
+img {
+-moz-outline:none;
+-moz-outline:0px;
+}
+
+a  {
+-moz-outline:none;
+-moz-outline:0px;
+}
+
+.button-new {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+	background-color: #EBEBEB;
+}
+/*********** Button Css **************/
+.normal2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #333333;
+	text-decoration: none;
+}
+
+A.boldbuttons2 SPAN {
+	PADDING-RIGHT: 25px;
+	DISPLAY: block;
+	PADDING-LEFT: 2px;
+	PADDING-BOTTOM: 4px;
+	PADDING-TOP: 4px;
+	height: 16px;
+	cursor: pointer;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #c70000;
+	text-decoration: none;
+	float: left;
+	background-image: url(images/button-bg.gif);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+A.boldbuttons2 {
+	DISPLAY: block;
+	PADDING-LEFT: 8px;
+	FLOAT: left;
+	HEIGHT: 22px;
+	TEXT-DECORATION: none;
+	margin-right: 4px;
+	cursor: pointer;
+	background-image: url(images/button-1.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+/*********** Button Css **************/
+.red-small {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #C70000;
+	text-decoration: none;
+}
+a:hover.red-small {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #C70000;
+	text-decoration: overline;
+}
+.hilight {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #C70000;
+	text-decoration: overline;
+	text-transform: uppercase;
+}
+a:hover.hilight {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #006699;
+	text-decoration: overline;
+	text-transform: uppercase;
+}
+
+.go {
+background-image: url(images/infozen_09.gif);
+background-repeat: no-repeat;
+float: left;
+height: 24px;
+width: 27px;
+cursor: pointer;
+border: 0px solid #FFFFFF;
+}
+
+
+.barIndicatorBorder {
+border:solid 1px #c0c0c0;
+width:200px;
+}
+
+.barIndicator_poor {
+background-color:gray;
+}
+
+.barIndicator_weak {
+background-color:cyan;
+}
+
+.barIndicator_good {
+background-color:lightblue;
+}
+
+.barIndicator_strong {
+background-color:blue;
+}
+
+.barIndicator_excellent {
+background-color:navy;   
+}
+
+.textbox {
+border: solid 2px #cccccc;
+border-top: solid 2px #a0a0a0;
+}
+
+
+
+

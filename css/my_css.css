@@ -1,0 +1,31 @@
+/* CSS Document */
+.style1
+{
+	font-size:28px;
+	font-weight:bold;
+	color:#00C;
+}
+.style2
+{
+	font-size:22px;
+	font-weight:700;
+	color:#03F;
+}
+.style3
+{
+	font-size:20px;
+	font-weight:400;
+}
+.style4
+{
+	font-size:24px;
+	font-weight:bold;
+	color:#FFF;
+	background-color:#00C;
+}
+.style5
+{
+	font-size:22px;
+	font-weight:bold;
+	color:#FFF;
+}

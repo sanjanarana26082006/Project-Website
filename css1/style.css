@@ -1,0 +1,144 @@
+body {
+	background-image: url(../images/body.jpg);
+	margin:0px;
+	/*width:100%;*/
+}
+
+.topmenu {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:13px;
+color:#193664;
+text-decoration:none;}
+
+
+.content {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:13px;
+color:#193664;
+letter-spacing:1px;
+line-height:25px;
+text-align:justify;
+text-decoration:none;}
+
+.contentnext {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:13px;
+color:#193664;
+letter-spacing:1px;
+line-height:25px;
+text-decoration:none;}
+
+
+.contentnextblack {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:13px;
+color:#000000;
+letter-spacing:1px;
+line-height:25px;
+text-decoration:none;}
+
+
+.contentmenu {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:13px;
+color:#193664;
+letter-spacing:1px;
+text-decoration:none;}
+
+
+
+.newshead {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:13px;
+font-weight:bold;
+color:#ffffff;
+text-decoration:none;}
+
+
+.pagehead {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:13px;
+font-weight:bold;
+color:#e03313;
+text-decoration:none;}
+
+
+.pageheadwhi {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:13px;
+font-weight:bold;
+color:#fff;
+text-decoration:none;}
+
+
+.pageheadblk {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:13px;
+color:#000;
+font-weight:bold;
+text-decoration:none;}
+
+
+
+.mpagehead {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:14px;
+font-weight:bold;
+color:#ffffff;
+text-decoration:none;}
+
+
+.footer {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:13px;
+color:#ffffff;
+text-decoration:none;}
+
+
+.CONTACT {
+font-family:Arial, Helvetica, sans-serif;
+font-size:18px;
+letter-spacing:1px;
+font-weight:bold;
+color:#ff0000;
+text-decoration:none;}
+
+
+
+#messageboxv2cover {
+    height:410px;
+    overflow: hidden;
+    position: absolute;
+    visibility: hidden;
+    width: 600px;
+    z-index: 100;
+	background-color:#ffffff;
+	/*background:#5c2d1d;*/
+}
+element.style {
+    top: 0;
+}
+#messageboxv2 {
+
+	height: -11px;
+	background-color:#ffffff;
+	left: 0;
+	padding: 4px;
+	position: absolute;
+	top: 0;
+	width: -11px;
+  }
+  
+  
+  
+  
+  #loading {
+    position:absolute;
+    width:300px;
+    top:0px;
+    left:50%;
+    margin-left:-150px;
+    text-align:center;
+    padding:7px 0 0 0;
+    font:bold 11px Arial, Helvetica, sans-serif;
+}
